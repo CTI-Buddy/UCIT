@@ -59,7 +59,6 @@ Final Observed Technique: Exfiltration
 | Section | Description |
 |--------|-------------|
 | [`docs/definitions.md`](docs/definitions.md) | Definitions for UCIT's core categories and structure |
-| [`docs/status-values.md`](docs/status-values.md) | Status values like Open, Closed, Benign, Unsuccessful |
 | [`docs/usage-guide.md`](docs/usage-guide.md) | How to apply UCIT in a SOC environment |
 | [`docs/mapping-examples/`](docs/mapping-examples/) | Visual flowchart mappings selected from the 100 test scenarios |
 
