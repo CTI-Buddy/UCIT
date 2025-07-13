@@ -3,7 +3,7 @@
 
 # Universal Cyber Incident Taxonomy (UCIT)
 
-The Universal Cyber Incident Taxonomy (UCIT) is a practical, open-source framework for labeling and classifying cyber incidents. It’s designed to provide clear, consistent short-form naming for security events—usable in real-time during detection and response, and structured enough to support long-term analysis and reporting.
+The Universal Cyber Incident Taxonomy (UCIT) is a practical, open-source framework for labeling and classifying cyber incidents based on MITRE ATT&CK. It’s designed to provide clear, consistent short-form naming for security events—usable in real-time during detection and response, and structured enough to support long-term analysis and reporting.
 
 Most existing frameworks (like those from CISA, DoD, or Verizon) suffer from vague categories, ambiguous overlap, or a lack of behavioral depth. UCIT was built from the ground up to fix that.
 
@@ -13,7 +13,7 @@ Most existing frameworks (like those from CISA, DoD, or Verizon) suffer from vag
 
 UCIT uses a **trinomial naming convention** to describe incidents as objects:
 
-<High-Level Category> – <Behavioral Tactic> – <Compromise Level>
+(High-Level Category) – (Behavioral Technique) – (Compromise Level)
 
 
 Each label reflects:
@@ -22,7 +22,7 @@ Each label reflects:
 - **What the adversary was doing** (e.g., Credential Access, Discovery)
 - **How much access they had** (User, Root, or Unknown)
 
-It can be used during triage or investigation and can be extended post-incident using an optional **Final Observed Technique** field for deeper analysis.
+It can be used during triage or investigation and is extended post-incident using a closeout **Final Observed Technique** field for complete granularity.
 
 ---
 
@@ -39,6 +39,7 @@ It can be used during triage or investigation and can be extended post-incident 
 ## 🔧 How It Works
 
 An example UCIT label:
+
 System Intrusion – Credential Access – User
 
 This tells you:
@@ -47,6 +48,7 @@ This tells you:
 - The adversary had **user-level access**
 
 Once the investigation concludes, you can append a final technique:
+
 Final Observed Technique: Exfiltration
 
 
@@ -59,7 +61,7 @@ Final Observed Technique: Exfiltration
 | [`docs/definitions.md`](docs/definitions.md) | Definitions for UCIT's core categories and structure |
 | [`docs/status-values.md`](docs/status-values.md) | Status values like Open, Closed, Benign, Unsuccessful |
 | [`docs/usage-guide.md`](docs/usage-guide.md) | How to apply UCIT in a SOC environment |
-| [`docs/mapping-examples/`](docs/mapping-examples/) | Side-by-side mappings with DoD, CISA, Verizon DBIR |
+| [`docs/mapping-examples/`](docs/mapping-examples/) | Visual flowchart mappings selected from the 100 test scenarios |
 
 ---
 
