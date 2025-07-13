@@ -60,7 +60,7 @@ Final Observed Technique: Exfiltration
 |--------|-------------|
 | [`docs/definitions.md`](docs/definitions.md) | Definitions for UCIT's core categories and structure |
 | [`docs/usage-guide.md`](docs/usage-guide.md) | How to apply UCIT in a SOC environment |
-| [`docs/mapping-examples/`](docs/mapping-examples/) | Visual flowchart mappings selected from the 100 test scenarios |
+| [`docs/mapping-examples/`](docs/mapping-examples.md) | Visual flowchart mappings selected from the 100 test scenarios |
 
 ---
 
