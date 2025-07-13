@@ -178,4 +178,4 @@ The adversary attempted malicious action but failed to gain access or achieve an
 
 ---
 
-For examples and usage, see [usage-guide.md](./usage-guide.md) or explore the [100-scenario dataset](./mapping-examples/100-scenarios.csv).
+For examples and usage, see [usage-guide.md](./usage-guide.md) or explore the [100-scenario dataset](./100-scenarios.csv).
